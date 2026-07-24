@@ -1,0 +1,2 @@
+#!/bin/sh
+curl https://raw.githubusercontent.com/FinlayTheBerry/EpsilonOS/refs/heads/main/installer/eos_install.py | python3
