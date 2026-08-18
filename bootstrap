@@ -1,2 +1,4 @@
 #!/bin/sh
-curl https://raw.githubusercontent.com/FinlayTheBerry/EpsilonOS/refs/heads/main/installer/eos_install.py | python3
+curl https://raw.githubusercontent.com/FinlayTheBerry/EpsilonOS/refs/heads/main/installer/eos_install.py -o ./eos_install
+chmod 755 ./eos_install
+python3 ./eos_install
